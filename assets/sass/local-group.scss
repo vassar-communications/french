@@ -1,3 +1,21 @@
 @import "typography";
 @import "layout";
 @import "color";
+.g- .u-Masthead__vassar
+{
+    display:none;
+    visibility:hidden;
+}
+
+.g- .u-Masthead__siteName
+{
+    border-bottom:1px solid #adb8bd;
+}
+.g- .u-Masthead__siteName {
+    padding: 0 .335em .335em .335em;
+}
+
+.g- .u-lHeader
+{
+    border-top:0;
+}

@@ -1,0 +1,131 @@
+@import "_imports";
+
+body {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+html {
+	padding: 0;
+}
+.u-ArticleListItem {
+	padding: 0 1em 1em 1em;
+	margin-bottom: 3%;
+}
+.u-Masthead {
+    display: inline-block;
+}
+  .u-Masthead__siteName--line3,
+  .u-Masthead__siteName--line4 {
+    display: block;
+  }
+
+  .u-VCard--site .u-Masthead__siteName--line1,
+  .u-VCard--site .u-Masthead__siteName--line2,
+  .u-VCard--site .u-Masthead__siteName--line3,
+  .u-VCard--site .u-Masthead__siteName--line4 {
+    display: inline-block;
+  }
+  .u-Masthead__siteName--line3,
+  .u-Masthead__siteName--line4 {
+    display: block;
+  }
+  .u-VCard--site .u-Masthead__siteName--line1,
+  .u-VCard--site .u-Masthead__siteName--line2,
+  .u-VCard--site .u-Masthead__siteName--line3,
+  .u-VCard--site .u-Masthead__siteName--line4 {
+    display: inline-block;
+  }
+
+@media all and (min-width: $small) {
+.u-Masthead__siteName {
+	margin-top: 1em;
+}
+.u-NavSite {
+	width: 25%;
+}
+.u-lMain {
+	width: 75%;
+}
+.u-biosInner .u-lMain {
+  width: 70%;
+}
+.u-biosInner .u-NavSite {
+  width: 30%;
+}
+}
+@media all and (min-width: $pointAtWhichSearchMovesToRight) {
+.u-Masthead__siteName {
+	margin-top: 0;
+}
+.u-lHeader, .u-lFooter {
+	position: relative;
+	margin-bottom: 2.2em;
+	padding: 2em 5% 2.5em 5%;  
+}
+.u-NavSite {
+	padding: 0 2.986% 0 5%;
+	width: 22%;
+	margin-top: 0;
+	position: relative;
+}
+.u-lMain {
+	padding: 0 5% 2% 0;
+	width: 78%;
+	float: right;
+}
+.u-lContent {
+	padding: 0 2.986%;
+}
+.u-Search {
+	right: 7%;
+	top: 3em;
+	max-width: 20em;
+}
+.u-lAside {
+	padding:0  2.986%  2.986%  2.986%;
+}
+.u-lFooter {
+	margin: 0 5% 0 5%;  
+}
+}
+@media all and (min-width: $xlarge) {
+.u-lHeader, .u-lFooter {
+	padding: 2em 15% 2.5em 15%;  
+}
+.u-NavSite {
+    padding: 0 2.986% 0 15%;
+	width: 30%;
+}
+.u-lMain {
+	padding: 0 15% 2% 0;
+	width: 70%;
+}
+.u-Search {
+	right: 17%;
+}
+.u-lFooter {
+	margin: 0 15% 0 15%;  
+}
+}
+@media all and (min-width: $xxlarge) {
+.u-lHeader, .u-lFooter {
+	padding: 2em 20% 2.5em 20%;  
+}
+
+.u-NavSite {
+    padding: 0 2.986% 0 20%;
+	width: 30%;
+}
+.u-lMain {
+	padding: 0 20% 2% 0;
+	width: 70%;
+}
+.u-Search {
+	right: 22%;
+}
+.u-lFooter {
+	margin: 0 20% 0 20%;  
+}
+}
+

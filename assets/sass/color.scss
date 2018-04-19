@@ -1,0 +1,114 @@
+@import "_imports";
+a,
+.Module--contact.Module--sidebar a {
+	border-bottom: 1px solid;
+}
+a,
+a:active {
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #222945;
+}
+.u-lHeader {
+  background: #adb8bd url(../images/css/iStock_000024316702Large.jpg) top center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-top: .579em solid;
+  border-bottom: .194em solid;
+  }
+.u-ArticleListItem {
+	border-bottom: 1px dashed #adb8bd;
+}
+.u-lFooter {
+	border-top: 1px solid #adb8bd;
+}
+.u-Search__field {
+  border: 8px solid #000;
+}
+/* Masthead Styles */
+.u-Masthead__siteName {
+  border-top: 1px solid #adb8bd;
+  background: #222945;
+  border-left: 1px solid #adb8bd;
+  border-right: 1px solid #adb8bd;
+  border-bottom: 1px solid #adb8bd;
+}
+.u-Masthead__siteName--link {
+  color: white;
+  border-bottom: 0px;
+}
+.u-Masthead__siteName--link:visited {
+  color: white;
+}
+.u-Masthead__siteName--link:focus {
+  color: #b4aea0;
+}
+.u-Masthead__siteName--link:hover {
+  color: #b4aea0;
+}
+.u-Masthead__siteName--link:active {
+  color: #b4aea0;
+}
+.u-Masthead__siteName--link:hover,
+.u-Masthead__siteName--link:visited,
+.u-Masthead__siteName--link:focus,
+.u-Masthead__siteName--link:active,
+.u-Masthead__vassar--link:hover,
+.u-Masthead__vassar--link:visited,
+.u-Masthead__vassar--link:focus,
+.u-Masthead__vassar--link:active {
+  border-bottom: 0px;
+}
+@media all and (min-width: $small) {
+    .u-Masthead__siteName {
+        border-bottom: none;
+    }
+    .u-Search__field {
+    border: none;
+    }
+    .u-Masthead__vassar--link {
+    color: #222945;
+    border-bottom: 0px;
+    }
+    .u-Masthead__vassar--link:visited {
+    color: #222945;
+    }
+    .u-Masthead__vassar--link:focus {
+    color: #adb8bd;
+    }
+    .u-Masthead__vassar--link:hover {
+    color: #adb8bd;
+    }
+    .u-Masthead__vassar--link:active {
+    color: #adb8bd;
+    }
+    .u-Masthead__vassar {
+    background-color: #fff;
+    border-left: 1px solid #adb8bd;
+    border-right: 1px solid #adb8bd;
+    border-bottom: 1px solid #adb8bd;
+    }
+}
+@media all and (min-width: $small) {
+    .u-NavSite {
+        border-right: 1px solid #b4aea0;
+    }
+    .u-NavSite__item {
+        @include link-colors($fontColor, $linkColorHoverFocus, $linkColorActive, $fontColor, $linkColorHoverFocus);
+    }
+    .u-NavSite__item--isCurrent,
+    .u-NavSite__item--isOpen .u-NavSite__item {
+        @include link-colors(#767269, $linkColorHoverFocus, #767269, #767269, $linkColorHoverFocus);
+    }
+}
+@media all and (min-width: $large) {
+    .u-lAside {
+        border-left: 1px solid #b4aea0;
+    }
+}
